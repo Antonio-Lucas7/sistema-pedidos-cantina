@@ -1,0 +1,21 @@
+
+{
+  "cardapio": [
+    {
+      "id": 1,
+      "nome": "Sanduíche",
+      "precoCentavos": 850
+    },
+    {
+      "id": 2,
+      "nome": "Hambúrguer",
+      "precoCentavos": 1200
+    },
+    {
+      "id": 3,
+      "nome": "Suco",
+      "precoCentavos": 500
+    }
+  ],
+  "pedidos": []
+}
