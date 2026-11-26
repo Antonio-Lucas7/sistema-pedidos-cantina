@@ -1,5 +1,4 @@
-
-# 🐟 Pedidos da Cantina - Grupo 04 (Tambaqui)
+# Pedidos da Cantina - Grupo 04 (Tambaqui)
 
 Sistema para gerenciamento de pedidos de uma cantina, desenvolvido como atividade acadêmica.
 
