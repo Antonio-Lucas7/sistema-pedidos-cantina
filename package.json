@@ -1,0 +1,10 @@
+{
+  "name": "sistema-pedidos-cantina",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "bun run --filter \"@cantina/*\" dev",
+    "dev:api": "bun run --filter @cantina/api dev",
+    "banco:popular": "bun run --filter @cantina/api banco:popular"
+  }
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "sistema-pedidos-cantina",
+			"path": "../../../.."
+		},
+		{
+			"name": "backend",
+			"path": "../../../../../../Users/admde/Downloads/sistema-pedidos-cantina-backend/backend"
+		}
+	],
+	"settings": {}
+}

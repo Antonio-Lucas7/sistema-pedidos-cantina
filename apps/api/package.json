@@ -1,0 +1,11 @@
+{
+  "name": "@cantina/api",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "banco:popular": "bun src/banco/popular.ts"
+  },
+  "dependencies": { "@cantina/tipos": "workspace:*" },
+  "devDependencies": { "@types/bun": "latest" }
+}
