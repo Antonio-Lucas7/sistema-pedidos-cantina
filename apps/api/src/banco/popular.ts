@@ -10,4 +10,4 @@ inserir.run("Coxinha", 700);
 inserir.run("Suco", 600);
 inserir.run("Refrigerante", 550);
 
-console.log("✅ Cardápio de exemplo inserido.");
+console.log("Cardápio de exemplo inserido.");

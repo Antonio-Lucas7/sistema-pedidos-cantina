@@ -11,7 +11,7 @@
         "@cantina/tipos": "workspace:*",
       },
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "^1.4.5",
       },
     },
     "apps/web": {

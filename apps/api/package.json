@@ -6,6 +6,10 @@
     "start": "bun src/index.ts",
     "banco:popular": "bun src/banco/popular.ts"
   },
-  "dependencies": { "@cantina/tipos": "workspace:*" },
-  "devDependencies": { "@types/bun": "latest" }
+  "dependencies": {
+    "@cantina/tipos": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.5"
+  }
 }
