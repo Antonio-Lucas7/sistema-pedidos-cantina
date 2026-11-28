@@ -1,26 +1,19 @@
-import { useState } from "react";
-import "./App.css";
+
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+
+import Inicio from "./paginas/inicio";
+import Cantina from "./paginas/cantina";
 
 function App() {
-  const [dark, setDark] = useState(false); //Cria um estado que controla se o tema escuro está ativado.
-
-  function toogleTheme() {
-    const novo = !dark;
-    setDark(novo); //Alterna entre tema claro e escuro.
-    document.documentElement.setAttribute(
-      "data-theme",
-      novo ? "dark" : "light",
-    ); //Altera o atributo do elemento HTML principal para aplicar as variáveis CSS do tema.
-  }
-
-  console.log(dark); //Exibe o valor atual de dark no console do navegador
-
   return (
-    <div>
-      <button onClick={toogleTheme}>Modo {dark ? "escuro" : "claro"} </button>
-      <h1>Hello world</h1>
-    </div>
-  ); //Exibe um botão para alternar o tema e um título de teste.
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Inicio />} />
+        <Route path="/cantina" element={<Cantina />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
